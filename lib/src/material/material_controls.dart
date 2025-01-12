@@ -383,7 +383,6 @@ class _MaterialControlsState extends State<MaterialControls>
             _cancelAndRestartTimer();
           }
         } else {
-          _playPause();
 
           setState(() {
             notifier.hideStuff = true;
